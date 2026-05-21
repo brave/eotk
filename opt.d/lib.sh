@@ -36,7 +36,7 @@ BuildAndCleanup() {
 
 SetupOpenRestyVars() {
     tool="openresty"
-    tool_version="1.29.2.3"
+    tool_version="1.29.2.4"
     tool_signing_keys="25451EB088460026195BD62CB550E09EA0E98066" # this is the full A0E98066 signature
     tool_url="https://openresty.org/download/$tool-$tool_version.tar.gz"
     tool_sig_url="https://openresty.org/download/$tool-$tool_version.tar.gz.asc"
